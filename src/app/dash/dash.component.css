@@ -1,0 +1,132 @@
+/* navbar */
+.navbar{
+    color: #538FFB #5B54FA;
+    box-shadow:0 3px 15px 0 rgba(0,0,0,0.4); 
+    overflow: hidden;
+
+}
+.navbar-nav{
+    margin-left: 2px ;
+}
+.nav{
+    padding: 2px;
+}
+.Headline{
+    background-color:antiquewhite;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+/* carousels */
+.carousel{
+    align-items: center;
+    padding-left: 10px;
+}
+.carslid{
+    margin-top: 100px;
+    height: 40%;
+    width: 100%;
+    padding: 10px;
+    size-adjust: auto;
+    align-items: center;
+}
+/* card */
+.txt{
+    text-align: center;
+    margin-top: 60px;
+}
+.paragph{
+    padding: 10px;
+    
+}
+.card-group{
+    margin-top: 20px;
+}
+.card{
+    padding: 15px;
+    margin: 10px;
+     height: 400px;
+     margin: 50px;
+     position: relative;
+     box-shadow: 5px 5px 20px black;
+     overflow: hidden;
+     background:skyblue;
+ }
+ .team img{
+     height: 500px;
+     width: 350px;
+     border-radius: 3px;
+ }
+ 
+ .team .intro{
+     
+     height: 70px;
+     width: 350px ;
+     padding: 6px;
+     box-sizing: border-box;
+     position: absolute ;
+ 
+     background: rgb(95, 93, 93);
+     color: white;
+     bottom: 0px;
+ 
+     transition: 0.5s ease-in;
+ }
+ 
+ .intro h1{
+  
+     margin: 10px;   
+ }
+ .intro p{
+     font-size: 20px;
+     margin:10px;
+     visibility: hidden;
+     opacity: 0;
+ }
+ 
+ .card:hover{
+     cursor: pointer;
+ }
+ 
+ .card:hover .intro{
+     height: 150px;
+     bottom: 0px;
+     background: black;
+ }
+ 
+ .card:hover p{
+     opacity: 1;
+     visibility: visible;
+ }
+ 
+ .card:hover img{
+     transform: scale(1.1);
+ }
+/* video css */
+.video-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .video-row iframe {
+    margin-right: 20px;
+    width: 30%;
+  }
+  @media (max-width: 768px) {
+    .video-row {
+      flex-wrap: wrap;
+    }
+    .video-row iframe {
+      margin-right: 0;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  }
+  .tel a{
+    text-decoration: none;
+    color:#000000;
+  }
+  .mail a{
+    text-decoration: none;
+    color:#000000;
+  }
